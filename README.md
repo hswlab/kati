@@ -14,6 +14,8 @@ KATI is a simple desktop application that allows you to quickly and easily have 
 
 ![preview](https://github.com/hswlab/kati/blob/main/Screenshot.png)
 
+![preview2](https://github.com/hswlab/kati/blob/main/Screenshot2.png)
+
 # Nuget packages and associated licenses used in kati
 - Newtonsoft.Json <a href="https://licenses.nuget.org/MIT">`license`</a>
 - Esprima <a href="https://licenses.nuget.org/BSD-3-Clause">`license`</a>
