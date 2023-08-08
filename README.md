@@ -24,9 +24,9 @@ KATI is a simple desktop application that allows you to quickly and easily have 
 - BingChat <a href="https://github.com/bsdayo/BingChat/blob/main/LICENSE">`license`</a>
 - System.Speech  <a href="https://licenses.nuget.org/MIT">`license`</a>
 
-# More Details
-- German: https://github.com/hswlab/kati/blob/main/about-de.pdf
-- English: https://github.com/hswlab/kati/blob/main/about-en.pdf
+# More details
+- English: [user manual](https://github.com/hswlab/kati/blob/main/about-en.pdf)
+- German: [user manual](https://github.com/hswlab/kati/blob/main/about-de.pdf)
 
 # Known issues
 - Captcha message instead of a response. In this case, a link with a redirect to the Edge browser will be displayed, which will redirect you to the actual Bing Chat. From time to time, a captcha query is displayed there, which is intended to ensure that the chat is used by people and not by machines. Make sure that you solve the captcha with the same account for which you use the cookie token in the KATI app.
