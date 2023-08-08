@@ -3,7 +3,7 @@
 [![Downloads](https://img.shields.io/github/downloads/hswlab/kati/total)](https://github.com/hswlab/kati/releases/latest) 
 [![Downloads](https://img.shields.io/github/v/release/hswlab/kati)](https://github.com/hswlab/kati/releases/latest) 
 
-KATI is a simple desktop application that allows you to quickly and easily have a conversation with an AI. The C# library https://github.com/bsdayo/BingChat is used for communication with the AI and is based on BING Chat GPT-4. The application can be installed on Windows, and is expected to be available for Linux as well. 
+KATI is an AI desktop chat application with bing Chat-GPT 4. It supports voice and visual emotion feedback of the AI. The goal of the development goes in the direction of J.A.R.V.I.S or HAL 9000. I imagine an application that is uncomplicated to set up and does not cost anything. Just download, launch and use. The heart for the communication with the AI is the C# library [BingChat](https://github.com/bsdayo/BingChat). 
 
 *Key features in KATI v2.0.0:*
 - Conversation with the AI in the 3 usual chat modes: creative, balanced or direct
@@ -17,12 +17,12 @@ KATI is a simple desktop application that allows you to quickly and easily have 
 ![preview2](https://github.com/hswlab/kati/blob/main/Screenshot2.png)
 
 # Nuget packages and associated licenses used in kati
-- Newtonsoft.Json <a href="https://licenses.nuget.org/MIT">`license`</a>
-- Esprima <a href="https://licenses.nuget.org/BSD-3-Clause">`license`</a>
-- ElectronNET.API <a href="https://licenses.nuget.org/MIT">`license`</a>
-- LiteDB <a href="https://www.nuget.org/packages/LiteDB/5.0.16/license">`license`</a>
-- BingChat <a href="https://github.com/bsdayo/BingChat/blob/main/LICENSE">`license`</a>
-- System.Speech  <a href="https://licenses.nuget.org/MIT">`license`</a>
+- Newtonsoft.Json <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
+- Esprima <a href="https://licenses.nuget.org/BSD-3-Clause">`BSD 3-Clause License`</a>
+- ElectronNET.API <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
+- LiteDB <a href="https://www.nuget.org/packages/LiteDB/5.0.16/license">`MIT License`</a>
+- BingChat <a href="https://github.com/bsdayo/BingChat/blob/main/LICENSE">`MIT License`</a>
+- System.Speech  <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 
 # More details
 - English: [user manual](https://github.com/hswlab/kati/blob/main/about-en.pdf)
