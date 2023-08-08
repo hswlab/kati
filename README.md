@@ -16,7 +16,7 @@ KATI is an AI desktop chat application with bing Chat-GPT 4. It supports voice a
 
 ![preview2](https://github.com/hswlab/kati/blob/main/Screenshot2.png)
 
-# Nuget packages and associated licenses used in kati
+# Nuget packages and associated licenses used in KATI
 - Newtonsoft.Json <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 - Esprima <a href="https://licenses.nuget.org/BSD-3-Clause">`BSD 3-Clause License`</a>
 - ElectronNET.API <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
