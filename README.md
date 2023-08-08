@@ -1,6 +1,7 @@
 # KATI-AI (bing Chat-GPT 4)
 [![GitHub](https://img.shields.io/github/license/hswlab/kati)](https://github.com/hswlab/kati/blob/main/LICENSE) 
 ![GitHub issues](https://img.shields.io/github/issues/hswlab/kati)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/hswlab/kati)
 [![Downloads](https://img.shields.io/github/downloads/hswlab/kati/total)](https://github.com/hswlab/kati/releases/latest) 
 [![Downloads](https://img.shields.io/github/v/release/hswlab/kati)](https://github.com/hswlab/kati/releases/latest) 
 
