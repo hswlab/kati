@@ -6,11 +6,11 @@
 KATI is an AI desktop chat application with bing Chat-GPT 4. It supports voice and visual emotion feedback of the AI. The goal of the development goes in the direction of J.A.R.V.I.S or HAL 9000. I imagine an application that is uncomplicated to set up and does not cost anything. Just download, launch and use. The heart for the communication with the AI is the C# library [BingChat](https://github.com/bsdayo/BingChat). 
 
 *Key features in KATI v2.0.0:*
-- Conversation with the AI in the 3 usual chat modes: creative, balanced or direct
-- Formatted code and text output as a running text stream
-- Optional voice output with the default voice pre-installed in the OS
-- Visual emotions Feedback from the AI by means of a dynamic avatar image
-- Multilingual user interface (DE, EN, other languages on request)
+- [X] Conversation with the AI in the 3 usual chat modes: creative, balanced or direct
+- [X] Formatted code and text output as a running text stream
+- [X] Optional voice output with the default voice pre-installed in the OS
+- [X] Visual emotions Feedback from the AI by means of a dynamic avatar image
+- [X] Multilingual user interface (DE, EN, other languages on request)
 
 ![preview](https://github.com/hswlab/kati/blob/main/Screenshot.png)
 
