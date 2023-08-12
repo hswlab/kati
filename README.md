@@ -48,6 +48,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - The AI sends an incomplete response: In the case of links, code, special characters, or if the AI's response is too long, the response sometimes does not arrive in full. Explain to the AI that its last response is incomplete, it will then try to send its response in a different way. If the answer takes longer, such as 5 minutes, it will also be canceled. There will be a setting option for this in a later version.
 
 # Next milestone v3.0.0
+- [ ] Use of Markdown interpreter for the Bing responses and better handling/representation of references used in the text.
 - [ ] Setting option for automatic chat request timeot
 - [ ] Manually cancel a running chat request
 - [ ] Chat history
