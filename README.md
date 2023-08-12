@@ -51,10 +51,10 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [ ] Use of Markdown interpreter for the Bing responses and better handling/representation of references used in the text.
 - [ ] Setting option for automatic chat request timeot
 - [ ] Manually cancel a running chat request
-- [ ] Chat history
-- [ ] Chat history search
 
 # Ideas for upcoming milestones
+- [ ] Chat history
+- [ ] Chat history filter
 - [ ] Minimization of problems listed in Known Issues
 - [ ] Support for AI generated images
 - [ ] Better voice output by using AI voices (only if realizable for free)
