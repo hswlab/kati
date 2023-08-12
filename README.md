@@ -43,6 +43,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - German: [user manual](https://github.com/hswlab/kati/blob/main/about-de.pdf)
 
 # Known issues
+- v2.0.0 not working on some PCs after update because of cached scripts of the previous viersion of the app. I will fix that as soon as possible!
 - Captcha message instead of a response. In this case, a link with a redirect to the Edge browser will be displayed, which will redirect you to the actual Bing Chat. From time to time, a captcha query is displayed there, which is intended to ensure that the chat is used by people and not by machines. Make sure that you solve the captcha with the same account for which you use the cookie token in the KATI app.
 - The AI does not send a response: I have noticed that this sometimes happens with the VPN enabled. Disable VPN if it is enabled and restart the application.
 - The AI sends an incomplete response: In the case of links, code, special characters, or if the AI's response is too long, the response sometimes does not arrive in full. Explain to the AI that its last response is incomplete, it will then try to send its response in a different way. If the answer takes longer, such as 5 minutes, it will also be canceled. There will be a setting option for this in a later version.
