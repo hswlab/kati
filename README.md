@@ -42,19 +42,13 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - English: [user manual](https://github.com/hswlab/kati/blob/main/about-en.pdf)
 - German: [user manual](https://github.com/hswlab/kati/blob/main/about-de.pdf)
 
-# Known issues
-- Captcha message instead of a response. In this case, a link with a redirect to the Edge browser will be displayed, which will redirect you to the actual Bing Chat. From time to time, a captcha query is displayed there, which is intended to ensure that the chat is used by people and not by machines. Make sure that you solve the captcha with the same account for which you use the cookie token in the KATI app.
-- The AI does not send a response: I have noticed that this sometimes happens with the VPN enabled. Disable VPN if it is enabled and restart the application.
-- The AI sends an incomplete response: In the case of links, code, special characters, or if the AI's response is too long, the response sometimes does not arrive in full. Explain to the AI that its last response is incomplete, it will then try to send its response in a different way. If the answer takes longer, such as 5 minutes, it will also be canceled. There will be a setting option for this in a later version.
-
-# Next milestone v3.0.0
-- [X] Use of Markdown interpreter for the Bing responses and better handling/representation of references used in the text.
-- [ ] Setting option for automatic chat request timeot
-- [X] Manually cancel a running chat request
-
-# Ideas for upcoming milestones
+# Next milestone v4.0.0
+- [ ] Updated user manual for v3.0.0
+- [ ] Initialization of the AI with basic information about the user, language and a desired behavior of the AI.
 - [ ] Chat history
 - [ ] Chat history filter
+
+# Ideas for upcoming milestones
 - [ ] Minimization of problems listed in Known Issues
 - [ ] Support for AI generated images
 - [ ] Better voice output by using AI voices (only if realizable for free)
@@ -62,10 +56,13 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [ ] Setting your own avatar image
 - [ ] Management for alternative AI avatar packages
 - [ ] More AI avatar packages
-- [ ] Initialization of the AI with basic information about the user and a desired behavior of the AI.
-- [ ] Better text formatting for the AI answers
 - [ ] Selection of emoji for own chat messages
 - [ ] Emoji suggestions for your own messages
 - [ ] Dynamic avatar images for your own messages (similar function to AI avatars)
 - [ ] ...
+
+# Known issues
+- Captcha message instead of a response. In this case, a link with a redirect to the Edge browser will be displayed, which will redirect you to the actual Bing Chat. From time to time, a captcha query is displayed there, which is intended to ensure that the chat is used by people and not by machines. Make sure that you solve the captcha with the same account for which you use the cookie token in the KATI app.
+- The AI does not send a response: I have noticed that this sometimes happens with the VPN enabled. Disable VPN if it is enabled and restart the application.
+- The AI sends an incomplete response: In the case of links, code, special characters, or if the AI's response is too long, the response sometimes does not arrive in full. Explain to the AI that its last response is incomplete, it will then try to send its response in a different way. If the answer takes longer, such as 5 minutes, it will also be canceled. There will be a setting option for this in a later version.
 
