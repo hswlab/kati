@@ -19,7 +19,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 )](https://github.com/hswlab/kati/releases/latest)
 
 
-*Key features in current version of KATI:*
+*Key features of KATI:*
 - [X] Conversation with the AI in the 3 usual chat modes: creative, balanced or direct
 - [X] Formatted code and text output as a running text stream
 - [X] Optional voice output with the default voice pre-installed in the OS
@@ -62,6 +62,9 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [ ] Emoji suggestions for your own messages
 - [ ] Dynamic avatar images for your own messages (similar function to AI avatars)
 - [ ] ...
+
+# Known bugs that will be fixed soon
+- [ ] The request cannot be canceled immediately if TTS is enabled. Voice output that has already been started will be outputed until the end.
 
 # Known issues
 - Captcha message instead of a response. In this case, a link with a redirect to the Edge browser will be displayed, which will redirect you to the actual Bing Chat. From time to time, a captcha query is displayed there, which is intended to ensure that the chat is used by people and not by machines. Make sure that you solve the captcha with the same account for which you use the cookie token in the KATI app.
