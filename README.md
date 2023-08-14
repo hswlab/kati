@@ -50,8 +50,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [ ] Chat history filter
 
 # Ideas for upcoming milestones
-- [ ] Minimization of problems listed in Known Issues
-- [ ] Keeping the chathistory after new update of the application
+- [ ] Keep the chathistory after updating KATI
 - [ ] Export/Import function for chat history
 - [ ] Support for AI generated images
 - [ ] Better voice output by using AI voices (only if realizable for free)
