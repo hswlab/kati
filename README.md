@@ -19,7 +19,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 )](https://github.com/hswlab/kati/releases/latest)
 
 
-*Key features in KATI v2.0.0:*
+*Key features in current version of KATI:*
 - [X] Conversation with the AI in the 3 usual chat modes: creative, balanced or direct
 - [X] Formatted code and text output as a running text stream
 - [X] Optional voice output with the default voice pre-installed in the OS
