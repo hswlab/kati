@@ -45,7 +45,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 # Next milestone v4.0.0
 - [ ] Updated user manual for v3.0.0
 - [ ] Enable/disable voice output directly in chat view
-- [X] Initialization of the AI with basic information about the user, language and a desired behavior of the AI.
+- [X] Initialization of the AI with basic information about the user, language and a desired behavior of the AI. (v3.1.0)
 - [ ] Chat history
 - [ ] Chat history filter
 
