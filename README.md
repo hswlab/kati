@@ -21,6 +21,8 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 
 *Key features of KATI:*
 - [X] Conversation with the AI in the 3 usual chat modes: creative, balanced or direct
+- [X] Chat history
+- [X] Chat initialization with custom AI behaviour
 - [X] Formatted code and text output as a running text stream
 - [X] Optional voice output with the default voice pre-installed in the OS
 - [X] Visual emotions Feedback from the AI by means of a dynamic avatar image
@@ -43,11 +45,12 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - German: [user manual](https://github.com/hswlab/kati/blob/main/about-de.pdf)
 
 # Next milestone v4.0.0
-- [ ] Updated user manual for v3.0.0
+- [ ] Updated user manual for v4.0.0
 - [X] Enable/disable voice output directly in chat view (v3.2.0)
 - [X] Initialization of the AI with basic information about the user, language and a desired behavior of the AI. (v3.1.0)
-- [ ] Chat history
-- [ ] Chat history filter
+- [X] Chat history
+- [X] Chat history filter
+- [X] Style improvements
 
 # Ideas for upcoming milestones
 - [ ] Keep the chathistory after updating KATI
