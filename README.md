@@ -32,6 +32,8 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 
 ![preview2](https://github.com/hswlab/kati/blob/main/Screenshot2.png)
 
+![preview3](https://github.com/hswlab/kati/blob/main/Screenshot3.png)
+
 # Nuget packages and associated licenses used in KATI
 - Newtonsoft.Json <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 - Esprima <a href="https://licenses.nuget.org/BSD-3-Clause">`BSD 3-Clause License`</a>
