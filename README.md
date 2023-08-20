@@ -66,6 +66,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [ ] Selection of emoji for own chat messages
 - [ ] Emoji suggestions for your own messages
 - [ ] Dynamic avatar images for your own messages (similar function to AI avatars)
+- [ ] Tray icon
 - [ ] ...
 
 # Known bugs that will be fixed soon
