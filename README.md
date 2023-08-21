@@ -46,27 +46,21 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - English: [user manual](https://github.com/hswlab/kati/blob/main/about-en.pdf)
 - German: [user manual](https://github.com/hswlab/kati/blob/main/about-de.pdf)
 
-# Next milestone v4.0.0
-- [ ] Updated user manual for v4.0.0
-- [X] Enable/disable voice output directly in chat view (v3.2.0)
-- [X] Initialization of the AI with basic information about the user, language and a desired behavior of the AI. (v3.1.0)
-- [X] Chat history
-- [X] Chat history filter
-- [X] Style improvements
+# Next milestone v5.0.0
+- [ ] Chat input with voice recognition (only if realizable free of charge)
+- [ ] Tray icon
 
 # Ideas for upcoming milestones
-- [ ] Keep the chathistory after updating KATI
 - [ ] Export/Import function for chat history
 - [ ] Support for AI generated images
 - [ ] Better voice output by using AI voices (only if realizable for free)
-- [ ] Chat input with voice recognition (only if realizable free of charge)
 - [ ] Setting your own avatar image
 - [ ] Management for alternative AI avatar packages
 - [ ] More AI avatar packages
 - [ ] Selection of emoji for own chat messages
 - [ ] Emoji suggestions for your own messages
 - [ ] Dynamic avatar images for your own messages (similar function to AI avatars)
-- [ ] Tray icon
+- [ ] UI Translations for Frensh, Chinese, Japanese, Russian, Spanish,...
 - [ ] ...
 
 # Known bugs that will be fixed soon
