@@ -65,7 +65,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [ ] ...
 
 # Known bugs that will be fixed soon
-- [ ] TTS also interprets numbers with a dot as the end of a sentence and makes unsightly pauses at such places when reading aloud. 
+- [ ] TTS also interprets numbers with a dot as the end of a sentence and makes unsightly pauses at such places when reading aloud. Hope to fix that in Milestone 5.0.0 with a better sententense recognition by using OpenNlp.
 
 # Known issues
 - Captcha message instead of a response. In this case, a link with a redirect to the Edge browser will be displayed, which will redirect you to the actual Bing Chat. From time to time, a captcha query is displayed there, which is intended to ensure that the chat is used by people and not by machines. Make sure that you solve the captcha with the same account for which you use the cookie token in the KATI app.
