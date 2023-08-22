@@ -49,6 +49,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 # Next milestone v5.0.0
 - [ ] Chat input with voice recognition (only if realizable free of charge)
 - [ ] Tray icon
+- [ ] Test OpenNlp for better recognition of sentence endings.
 
 # Ideas for upcoming milestones
 - [ ] Export/Import function for chat history
