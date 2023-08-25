@@ -47,14 +47,15 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - German: [user manual](https://github.com/hswlab/kati/blob/main/about-de.pdf)
 
 # Next milestone v5.0.0
-- [ ] Chat input with voice recognition (only if realizable free of charge)
-- [X] Tray icon
+- [X] Chat input with voice recognition (v4.3.0T: ext Recognition is very bad. I'm using System.Speech.Recognition. Probably I need to search for a better service)
+- [X] Tray icon (v4.2.1)
 - [ ] Test OpenNlp for better recognition of sentence endings.
 
 # Ideas for upcoming milestones
+- [ ] Better voice output by using AI TTS voices (only if realizable for free)
+- [ ] Better voice input by using AI STT models (only if realizable for free)
 - [ ] Export/Import function for chat history
 - [ ] Support for AI generated images
-- [ ] Better voice output by using AI voices (only if realizable for free)
 - [ ] Setting your own avatar image
 - [ ] Management for alternative AI avatar packages
 - [ ] More AI avatar packages
