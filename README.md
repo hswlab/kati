@@ -49,6 +49,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 # Next milestone v5.0.0
 - [X] Chat input with voice recognition (v4.3.0T: ext Recognition is very bad. I'm using System.Speech.Recognition. Probably I need to search for a better service)
 - [X] Tray icon (v4.2.1)
+- [X] Update Help-File for v5.0.0 
 
 
 # Ideas for upcoming milestones
