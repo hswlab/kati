@@ -49,9 +49,12 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 # Next milestone v5.0.0
 - [X] Chat input with voice recognition (v4.3.0T: ext Recognition is very bad. I'm using System.Speech.Recognition. Probably I need to search for a better service)
 - [X] Tray icon (v4.2.1)
-- [ ] Test OpenNlp for better recognition of sentence endings.
+
 
 # Ideas for upcoming milestones
+- [ ] Testing suno-ai/bark & PABannier/bark.cpp for better STT.
+- [ ] Test OpenNlp for better recognition of sentence endings.
+- [ ] Categorize and fovorize selected conversations in the history.
 - [ ] Better voice output by using AI TTS voices (only if realizable for free)
 - [ ] Better voice input by using AI STT models (only if realizable for free)
 - [ ] Export/Import function for chat history
