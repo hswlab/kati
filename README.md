@@ -25,9 +25,11 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [X] Chat history with filter
 - [X] Chat initialization with custom AI behaviour
 - [X] Formatted code and text output as a running text stream
-- [X] Optional voice output with the default voice pre-installed in the OS
+- [X] TTS: Optional voice output with the default voices in Windows
+- [X] STT: Optional voice to text input with the default voice recognition of Windows
 - [X] Visual emotions Feedback from the AI by means of a dynamic avatar image
 - [X] Multilingual user interface (DE, EN, other languages on request)
+- [X] Minimize to tray function
 
 ![preview](https://github.com/hswlab/kati/blob/main/Screenshot.png)
 
@@ -44,18 +46,14 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - System.Speech  <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 
 
-# Next milestone v5.0.0
-- [X] Chat input with voice recognition (v4.3.0: Text Recognition is very bad with System.Speech.Recognition. Probably I need to search for a better service)
-- [X] Tray icon (v4.2.1)
-- [ ] Update Help-File for v5.0.0 
+# Next milestone v6.0.0
+- [ ] Better voice output by using AI TTS voices (Maybe Whisper or a restricted free to use API. I will also keep System.Speech as a fallback solution)
+- [ ] Better voice input by using AI STT models (Maybe suno-ai/bark => PABannier/bark.cpp is a nice candidate or a restricted free to use API. I will also keep System.Speech as a fallback solution)
 
 
 # Ideas for upcoming milestones
-- [ ] Testing suno-ai/bark & PABannier/bark.cpp for better STT.
 - [ ] Test OpenNlp for better recognition of sentence endings.
 - [ ] Categorize and fovorize selected conversations in the history.
-- [ ] Better voice output by using AI TTS voices (only if realizable for free)
-- [ ] Better voice input by using AI STT models (only if realizable for free)
 - [ ] Export/Import function for chat history
 - [ ] Support for AI generated images
 - [ ] Setting your own avatar image
@@ -65,10 +63,11 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [ ] Emoji suggestions for your own messages
 - [ ] Dynamic avatar images for your own messages (similar function to AI avatars)
 - [ ] UI Translations for Frensh, Chinese, Japanese, Russian, Spanish,...
+- [ ] Using chat GPT in the APP without having to copy tokens from the edge browser or solving captcha questions outside the app.
 - [ ] ...
 
 # Known bugs that will be fixed soon
-- [ ] TTS also interprets numbers with a dot as the end of a sentence and makes unsightly pauses at such places when reading aloud. Hope to fix that in Milestone 5.0.0 with a better sententense recognition by using OpenNlp.
+- [ ] Can't find any bugs yet :)
 
 # Known issues
 - Captcha message instead of a response. In this case, a link with a redirect to the Edge browser will be displayed, which will redirect you to the actual Bing Chat. From time to time, a captcha query is displayed there, which is intended to ensure that the chat is used by people and not by machines. Make sure that you solve the captcha with the same account for which you use the cookie token in the KATI app.
