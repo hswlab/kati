@@ -12,7 +12,8 @@ https://www.rarst.net/code/link-latest-github-release-binary
 
 KATI is an AI desktop chat application with bing Chat-GPT 4. It supports voice and visual emotion feedback of the AI. The goal of the development goes in the direction of J.A.R.V.I.S or HAL 9000. I imagine an application that is uncomplicated to set up and does not cost anything. Just download, launch and use. 
 
-KATI is programmed with Electron and .NET6 and is therefore operating system independent. Currently only a download for Windows is offered, but there will probably also be an executable for Linux. The heart for the communication with the AI is the C# library [BingChat](https://github.com/bsdayo/BingChat).
+KATI is programmed with Electron and .NET6 and is therefore operating system independent. Currently only a download for Windows is offered, but there will probably also be an executable for Linux. The heart for the communication with the AI is the C# library [BingChat](https://github.com/bsdayo/BingChat). A detailed description of all features in KATI can be found in the user manual.
+<a href="https://github.com/hswlab/KATI/blob/main/about-de.pdf">`User manual: German`</a> <a href="https://github.com/hswlab/KATI/blob/main/about-en.pdf">`User manual: English`</a>
 
 
 [![GitHub release (with filter)](https://img.shields.io/github/downloads/hswlab/kati/total?style=for-the-badge&logo=ChatBot&label=download%20KATI
@@ -42,9 +43,6 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - BingChat <a href="https://github.com/bsdayo/BingChat/blob/main/LICENSE">`MIT License`</a>
 - System.Speech  <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 
-# More details
-- English: [user manual](https://github.com/hswlab/kati/blob/main/about-en.pdf)
-- German: [user manual](https://github.com/hswlab/kati/blob/main/about-de.pdf)
 
 # Next milestone v5.0.0
 - [X] Chat input with voice recognition (v4.3.0: Text Recognition is very bad with System.Speech.Recognition. Probably I need to search for a better service)
