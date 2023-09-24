@@ -60,7 +60,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 
 # Ideas for upcoming milestones
 - [ ] Better voice input by using AI STT models (Maybe Whisper or a restricted free to use API. I will also keep System.Speech as a fallback solution)
-- [ ] Feature to convert text To audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
+- [ ] Feature to convert text to audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
 - [ ] Test OpenNlp for better recognition of sentence endings.
 - [ ] Categorize and fovorize selected conversations in the history.
 - [ ] Export/Import function for chat history
