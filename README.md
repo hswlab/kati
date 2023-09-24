@@ -54,6 +54,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [X] Bing Token is not required anymore to make a conversation. (You simply can make even more requests, when a BING Token is added)
 - [X] Automatically update BING token from Edge browser via button click.
 - [X] Embedded BING Chat (If you like, you can also use the actual BING Chat directly in the KATI APP)
+- [X] Show current/max number in active conversation
 - [ ] Advanced history view (Read aloud and continue conversation feature)
 - [ ] Update Documentation/Manual. (For privacy reasons, the documentation must be supplemented with a note that EDGE cookies are processed!)
  
