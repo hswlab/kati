@@ -47,11 +47,20 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 
 
 # Next milestone v6.0.0
-- [ ] Better voice output by using AI TTS voices (Maybe Whisper or a restricted free to use API. I will also keep System.Speech as a fallback solution)
-- [ ] Better voice input by using AI STT models (Maybe suno-ai/bark => PABannier/bark.cpp is a nice candidate or a restricted free to use API. I will also keep System.Speech as a fallback solution)
-
+- [X] Better voice output by using AI TTS voices (I decided to use TikTok voices. I will also keep System.Speech as a fallback solution)
+- [X] Multilangual TTS and UI (DE, EN, FR, ES, PT, JA, KO)
+- [X] Simplify settings for TTS (Just choice TTS Voice and Speech speed)
+- [X] Replacing BING API with own implementation (BING API is no longer supported so I decided to implement a custom solution)
+- [X] Bing Token is not required anymore to make a conversation. (You simply can make even more requests, when a BING Token is added)
+- [X] Automatically update BING token from Edge browser via button click.
+- [X] Embedded BING Chat (If you like, you can also use the actual BING Chat directly in the KATI APP)
+- [ ] Advanced history view (Read aloud and continue conversation feature)
+- [ ] Update Documentation/Manual. (For privacy reasons, the documentation must be supplemented with a note that EDGE cookies are processed!)
+ 
 
 # Ideas for upcoming milestones
+- [ ] Better voice input by using AI STT models (Maybe Whisper or a restricted free to use API. I will also keep System.Speech as a fallback solution)
+- [ ] Feature to convert text To audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
 - [ ] Test OpenNlp for better recognition of sentence endings.
 - [ ] Categorize and fovorize selected conversations in the history.
 - [ ] Export/Import function for chat history
