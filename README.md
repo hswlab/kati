@@ -21,15 +21,14 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 
 
 *Key features of KATI:*
-- [X] Conversation with the AI in the 3 usual chat modes: creative, balanced or direct
-- [X] Chat history with filter
-- [X] Chat initialization with custom AI behaviour
-- [X] Formatted code and text output as a running text stream
-- [X] TTS: Optional voice output with the default voices in Windows
-- [X] STT: Optional voice to text input with the default voice recognition of Windows
-- [X] Visual emotions Feedback from the AI by means of a dynamic avatar image
-- [X] Multilingual user interface (DE, EN, other languages on request)
-- [X] Minimize to tray function
+- [X] Conversation with the AI in the chat modes: Creative, Balanced or Direct
+- [X] Optional voice output with a voice pre-installed in the operating system or a naturalsounding TikTok voice.
+- [X] Optional speech input (System Speech)
+- [X] Dynamic avatar images to represent AI emotions.
+- [X] Chat history with filter function, read-aloud function and the possibility to resume a previous conversation.
+- [X] Storage option for a behavioral description of the AI and a salutation name. This information is automatically transferred to the AI when a new topic is created.
+- [X] Short waiting times due to direct streaming of answers. Text and code are formatted for readability.
+- [X] Multilingual user interface (DE, EN, FR, ES, PT, JA, KO)
 
 ![preview](https://github.com/hswlab/kati/blob/main/Screenshot.png)
 
@@ -38,29 +37,24 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 ![preview3](https://github.com/hswlab/kati/blob/main/Screenshot3.png)
 
 # Nuget packages and associated licenses used in KATI
-- Newtonsoft.Json <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
-- Esprima <a href="https://licenses.nuget.org/BSD-3-Clause">`BSD 3-Clause License`</a>
-- ElectronNET.API <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
-- LiteDB <a href="https://www.nuget.org/packages/LiteDB/5.0.16/license">`MIT License`</a>
 - BingChat <a href="https://github.com/bsdayo/BingChat/blob/main/LICENSE">`MIT License`</a>
+- ElectronNET.API <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
+- Esprima <a href="https://licenses.nuget.org/BSD-3-Clause">`BSD 3-Clause License`</a>
+- LiteDB <a href="https://www.nuget.org/packages/LiteDB/5.0.16/license">`MIT License`</a>
+- Microsoft.AspNetCore.SignalR.Client <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
+- NAudio <a href="https://www.nuget.org/packages/NAudio/2.2.1/license">`License Info`</a>
+- Newtonsoft.Json <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
+- System.Data.SQLite <a href="https://www.sqlite.org/copyright.html">`Public Domain`</a>
+- System.Linq.Async <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 - System.Speech  <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
+- SoundTouch <a href="https://www.surina.net/soundtouch/license.html">`License Info`</a>
 
 
-# Next milestone v6.0.0
-- [X] Better voice output by using AI TTS voices (I decided to use TikTok voices. I will also keep System.Speech as a fallback solution)
-- [X] Multilangual TTS and UI (DE, EN, FR, ES, PT, JA, KO)
-- [X] Simplify settings for TTS (Just choice TTS Voice and Speech speed)
-- [X] Replacing BING API with own implementation (BING API is no longer supported so I decided to implement a custom solution)
-- [X] Bing Token is not required anymore to make a conversation. (You simply can make even more requests, when a BING Token is added)
-- [X] Automatically update BING token from Edge browser via button click.
-- [X] Embedded BING Chat (If you like, you can also use the actual BING Chat directly in the KATI APP)
-- [X] Show current/max conversation count in active conversation
-- [X] Advanced history view (Read aloud and continue conversation feature)
-- [ ] Update Documentation/Manual. (For privacy reasons, the documentation must be supplemented with a note that EDGE cookies are processed!)
- 
+
+# Next milestone v7.0.0
+ - [ ] Better voice input by using AI STT models (Maybe Whisper or a restricted free to use API. I will also keep System.Speech as a fallback solution)
 
 # Ideas for upcoming milestones
-- [ ] Better voice input by using AI STT models (Maybe Whisper or a restricted free to use API. I will also keep System.Speech as a fallback solution)
 - [ ] Feature to convert text to audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
 - [ ] Test OpenNlp for better recognition of sentence endings.
 - [ ] Categorize and fovorize selected conversations in the history.
