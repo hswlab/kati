@@ -52,7 +52,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 
 
 # Next milestone v7.0.0
- - [ ] Better voice input by using AI STT models (Maybe Whisper or a restricted free to use API. I will also keep System.Speech as a fallback solution)
+ - [ ] Better voice input by using AI STT models (Maybe Whisper, Vosk or a restricted free to use API. I will also keep System.Speech as a fallback solution)
 
 # Ideas for upcoming milestones
 - [ ] Feature to convert text to audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
