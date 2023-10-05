@@ -1,3 +1,6 @@
+> **Warning**
+> This app is based on the unofficial API BingChat. Unfortunately, the latest updates to the Bing service prevent communication with the AI. If there is a solution for the problem, I will inform you.
+
 # KATI-AI (bing Chat-GPT 4)
 [![GitHub](https://img.shields.io/github/license/hswlab/kati)](https://github.com/hswlab/kati/blob/main/LICENSE) 
 ![GitHub issues](https://img.shields.io/github/issues/hswlab/kati)
