@@ -1,5 +1,9 @@
 > **Warning**
-> This app is based on the unofficial API BingChat. Unfortunately, the latest updates to the Bing service prevent communication with the AI. I have already fixed that problem. KATI will work again in the next update 6.0.2. I'm in the middle of a major rebuild for the new dictation feature with Whisper, so I can't get an update in there so quickly right now. Please be patient :)
+> This app is based on the unofficial API BingChat. Unfortunately, sometimes BING updates can cause a broken communication with the AI. I will try to fix broken communication, if it can be fixed on my side, as soon as possible. :)
+
+> **Info**
+> The Problem with the broken communication is fixed now. KATI should now be able to communicate with the AI again, I was able to make the bugfix earlier after all. :)
+
 
 # KATI-AI (bing Chat-GPT 4)
 [![GitHub](https://img.shields.io/github/license/hswlab/kati)](https://github.com/hswlab/kati/blob/main/LICENSE) 
