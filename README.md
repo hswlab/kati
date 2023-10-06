@@ -1,7 +1,7 @@
 > **Warning**
 > This app is based on the unofficial API BingChat. Unfortunately, sometimes BING updates can cause a broken communication with the AI. I will try to fix broken communication, if it can be fixed on my side, as soon as possible. :)
 
-> **Info**
+> **Success**
 > The Problem with the broken communication is fixed now. KATI should now be able to communicate with the AI again, I was able to make the bugfix earlier after all. :)
 
 
