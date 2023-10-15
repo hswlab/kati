@@ -2,7 +2,7 @@
 > This app is based on the unofficial API BingChat. Unfortunately, sometimes BING updates can cause a broken communication with the AI. I will try to fix broken communication, if it can be fixed on my side, as soon as possible. :)
 
 > **Info**
-> The Problem with the broken communication is fixed now. KATI should now be able to communicate with the AI again, I was able to make the bugfix earlier after all. :)
+> 2023.10.15: Milestone v7.0.0 reached
 
 
 # KATI-AI (bing Chat-GPT 4)
@@ -30,7 +30,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 *Key features of KATI:*
 - [X] Conversation with the AI in the chat modes: Creative, Balanced or Direct
 - [X] Optional voice output with a voice pre-installed in the operating system or a naturalsounding TikTok voice.
-- [X] Optional speech input (System Speech)
+- [X] Optional speech input (System Speech & Whisper)
 - [X] Dynamic avatar images to represent AI emotions.
 - [X] Chat history with filter function, read-aloud function and the possibility to resume a previous conversation.
 - [X] Storage option for a behavioral description of the AI and a salutation name. This information is automatically transferred to the AI when a new topic is created.
@@ -55,16 +55,16 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - System.Linq.Async <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 - System.Speech  <a href="https://licenses.nuget.org/MIT">`MIT License`</a>
 - SoundTouch <a href="https://www.surina.net/soundtouch/license.html">`License Info`</a>
+- WhisperNet <a href="https://licenses.nuget.org/MPL-2.0">`MPL-2.0 License`</a>
 
 
 
-# Next milestone v7.0.0
- - [ ] Better voice input by using AI STT models (Maybe Whisper, Vosk or a restricted free to use API. I will also keep System.Speech as a fallback solution)
+# Next milestone v8.0.0
+ - [ ] Categorize and fovorize selected conversations in the history.
 
 # Ideas for upcoming milestones
 - [ ] Feature to convert text to audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
 - [ ] Test OpenNlp for better recognition of sentence endings.
-- [ ] Categorize and fovorize selected conversations in the history.
 - [ ] Export/Import function for chat history
 - [ ] Support for AI generated images
 - [ ] Setting your own avatar image
