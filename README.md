@@ -60,21 +60,19 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 
 
 # Next milestone v8.0.0
- - [ ] Categorize and fovorize selected conversations in the history.
+- [X] Ratings for AI Results.
+- [X] Filter History by rating
+- [X] Auto redirct to settings view and higlight token field, if the chat cant't be used without a token.
+- [ ] Update user manual 
 
 # Ideas for upcoming milestones
 - [ ] Feature to convert text to audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
 - [ ] Test OpenNlp for better recognition of sentence endings.
 - [ ] Export/Import function for chat history
-- [ ] Support for AI generated images
 - [ ] Setting your own avatar image
 - [ ] Management for alternative AI avatar packages
 - [ ] More AI avatar packages
-- [ ] Selection of emoji for own chat messages
-- [ ] Emoji suggestions for your own messages
-- [ ] Dynamic avatar images for your own messages (similar function to AI avatars)
-- [ ] UI Translations for Frensh, Chinese, Japanese, Russian, Spanish,...
-- [ ] Using chat GPT in the APP without having to copy tokens from the edge browser or solving captcha questions outside the app.
+- [ ] Using emojis in own messages
 - [ ] ...
 
 # Known bugs that will be fixed soon
