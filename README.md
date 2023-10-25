@@ -2,7 +2,7 @@
 > This app is based on the unofficial API BingChat. Unfortunately, sometimes BING updates can cause a broken communication with the AI. I will try to fix broken communication, if it can be fixed on my side, as soon as possible. :)
 
 > **Info**
-> 2023.10.15: Milestone v7.0.0 reached
+> 2023.10.25: Milestone v8.0.0 reached
 
 
 # KATI-AI (bing Chat-GPT 4)
@@ -33,6 +33,7 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - [X] Optional speech input (System Speech & Whisper)
 - [X] Dynamic avatar images to represent AI emotions.
 - [X] Chat history with filter function, read-aloud function and the possibility to resume a previous conversation.
+- [X] Rating option for the AI answers and filter history by rating
 - [X] Storage option for a behavioral description of the AI and a salutation name. This information is automatically transferred to the AI when a new topic is created.
 - [X] Short waiting times due to direct streaming of answers. Text and code are formatted for readability.
 - [X] Multilingual user interface (DE, EN, FR, ES, PT, JA, KO)
@@ -58,12 +59,8 @@ KATI is programmed with Electron and .NET6 and is therefore operating system ind
 - WhisperNet <a href="https://licenses.nuget.org/MPL-2.0">`MPL-2.0 License`</a>
 
 
-
-# Next milestone v8.0.0
-- [X] Ratings for AI Results.
-- [X] Filter History by rating
-- [X] Auto redirct to settings view and higlight token field, if the chat cant't be used without a token.
-- [ ] Update user manual 
+# Next milestone (research)
+- [ ] I want to try out a local AI, because I don't really like the user to handle with a bing token to get the chat running. Probably I try LLama or something which don't need an authentikation, can be used on weak PC's, don't need a complicated installation and is still for free. I'm not sure if I will be sattisfied with my resarch results, but if I am, there will be a new project similar to KATI but with an alternative AI. Maybe there is a solution to use the Bing chat outside of the Edge browser without a token. This has already worked from time to time, I do not give up hope :)
 
 # Ideas for upcoming milestones
 - [ ] Feature to convert text to audiofile (suno-ai/bark => PABannier/bark.cpp is a nice candidate. TikTok voice is also nice to use)
