@@ -2,7 +2,7 @@
 > This app is based on the unofficial API BingChat. Unfortunately, sometimes BING updates can cause a broken communication with the AI. I will try to fix broken communication, if it can be fixed on my side, as soon as possible. :)
 
 > **Info**
-> 2023.10.25: Milestone v8.0.0 reached
+> If Bing does not respond, try starting a new conversation, removing the default behavior text from the settings or saving a new token.
 
 
 # KATI-AI (bing Chat-GPT 4)
